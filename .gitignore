@@ -1,0 +1,70 @@
+# --- Compilaton Artifacts ---
+*.o
+*.o.d
+*.a
+*.s
+*.ko
+*.so
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.cmd
+.tmp_versions/
+
+# --- Python & Build System Cache ---
+__pycache__/
+*.pyc
+*.pyo
+.mesonpy/
+.ninja_log
+.ninja_deps
+compile_commands.json
+
+# --- QEMU Specific ---
+build/
+build_native/
+pc-bios/*.bin
+pc-bios/*.rom
+qemu-bundle/
+config-host.*
+config.status
+qemu-options.def
+
+# --- Linux Kernel Specific ---
+vmlinux
+vmlinux.o
+System.map
+.config
+.config.old
+arch/x86/boot/bzImage
+arch/x86/boot/vmlinuz
+debian/
+scripts/basic/
+scripts/kconfig/
+scripts/mod/
+
+# --- Debugging & Logs ---
+*.log
+*.out
+gmon.out
+.gdb_history
+.gdbinit (if custom)
+
+# --- Large Binaries & Archives ---
+*.tar
+*.tar.gz
+*.zip
+*.cpio
+*.cpio.gz
+*.img
+*.qcow2
+shared_disk.img
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+rootfs
+minimal_rootfs

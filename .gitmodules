@@ -1,0 +1,6 @@
+[submodule "linux-16.9"]
+	path = linux-16.9
+	url = ./linux-16.9
+[submodule "qemu"]
+	path = qemu
+	url = ./qemu
