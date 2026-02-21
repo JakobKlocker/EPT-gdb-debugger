@@ -1,6 +1,6 @@
 [submodule "linux-16.9"]
 	path = linux-16.9
-	url = ./linux-16.9
+	url = https://github.com/JakobKlocker/EPT-linux.git
 [submodule "qemu"]
 	path = qemu
-	url = ./qemu
+	url = https://github.com/JakobKlocker/EPT-qemu.git
